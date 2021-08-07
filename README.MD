@@ -1,15 +1,17 @@
-Map app that can pin travel sites visited using React hooks, Mapbox, Express, and MongoDB.
+Map app that can pin travel locations visited using React hooks, Mapbox, Express, and MongoDB.
 
-MongoDB was connected by
+MongoDB Section
 
 1. Creating a cluster on MongoDB atlas
 2. Creating a Database within the cluster
-3. Selecting connect to application upon a connection string was received and connection to MongoDB was done using Mongoose- https://mongoosejs.com/
+3. Selected connect to application upon which a connection string was received and connection to MongoDB was done using Mongoose- https://mongoosejs.com/
 
-A node.js REST API was created using Express.js it contains
+Express/Node:
 
-1. Routes - These are used to forward the supported requests (and any information encoded in request URLs) to the appropriate controller functions.
-2. Controllers
-3. Login and Register
+A node.js REST API was created using Express.js
+Two routes and Login and Register along with their respective middlewares were created
 
-React
+React:
+Used Mapbox API to render a map on screen
+Enabled Pin functionality on double click
+Created buttons and modals for Login and Register with basic form validation
