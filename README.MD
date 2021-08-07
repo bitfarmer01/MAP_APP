@@ -8,10 +8,11 @@ MongoDB Section
 
 Express/Node:
 
-A node.js REST API was created using Express.js
-Two routes and Login and Register along with their respective middlewares were created
+1. A node.js REST API was created using Express.js
+2. Two routes and Login and Register along with their respective middlewares were created
 
 React:
-Used Mapbox API to render a map on screen
-Enabled Pin functionality on double click
-Created buttons and modals for Login and Register with basic form validation
+
+1. Used Mapbox API to render a map on screen
+2. Enabled Pin functionality on double click
+3. Created buttons and modals for Login and Register with basic form validation
