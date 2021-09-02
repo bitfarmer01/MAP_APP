@@ -6,6 +6,8 @@ MongoDB Section
 2. Creating a Database within the cluster
 3. Selected connect to application upon which a connection string was received and connection to MongoDB was done using Mongoose- https://mongoosejs.com/
 
+2 models Users and Pin were created
+
 Express/Node:
 
 1. A node.js REST API was created using Express.js
